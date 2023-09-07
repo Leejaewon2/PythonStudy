@@ -120,10 +120,21 @@
 #   * * *
 #    * *
 #     *
-n = int(input("역삼각형 : "))
-for i in range(n, 0, -1):
-    for s in range(n - i):
-        print(" ", end="")
-    for j in range(i):
-        print("*", end=" ")
-    print()
+# n = int(input("역삼각형 : "))
+# for i in range(n, 0, -1):
+#     for s in range(n - i):
+#         print(" ", end="")
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
+
+# 문자와 ASCII 코드
+# chr : 유니코드 값을 입력 받아 그 코드에 해당하는 문자를 출력
+# ord : 문자를 유니코드으로 변환
+for i in range(ord("A"), ord("Z") + 1):
+    print(chr(i),end=" ")
+print()
+
+for i in range(65, 91):
+    print(chr(i), end=" ")
+print()
