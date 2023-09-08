@@ -11,23 +11,23 @@ import datetime
 
 # 2번 3개의 정수를 입력 받아 최대값과 최소값 구하기
 
-num1, num2, num3 = map(int, input("정수를 입력하세요 : ").split(" "))
-max_num = max(num1, num2, num3)
-min_num = min(num1, num2, num3)
-
-print(f"최대값 : {max_num}")
-print(f"최소값 : {min_num}")
-
-if num2 > max_num:
-    max_num = num2
-elif num2 < min_num:
-    min_num = num2
-
-# num3와 비교
-if num3 > max_num:
-    max_num = num3
-elif num3 < min_num:
-    min_num = num3
+# num1, num2, num3 = map(int, input("정수를 입력하세요 : ").split(" "))
+# max_num = max(num1, num2, num3)
+# min_num = min(num1, num2, num3)
+#
+# print(f"최대값 : {max_num}")
+# print(f"최소값 : {min_num}")
+#
+# if num2 > max_num:
+#     max_num = num2
+# elif num2 < min_num:
+#     min_num = num2
+#
+# # num3와 비교
+# if num3 > max_num:
+#     max_num = num3
+# elif num3 < min_num:
+#     min_num = num3
 
 # 3번 주민등록번호를 입력받아 생년월일, 성별, 나이 출력하기
 

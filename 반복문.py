@@ -24,11 +24,11 @@
 
 # for 변수 in range(시작값, 종료값, 증감값):
 
-# n = int(input("정수를 입력 하세요 : "))
-# sum = 0
-# for i in range(1, n+1):
-#     sum += i
-#     print(sum)
+n = int(input("정수를 입력 하세요 : "))
+sum = 0
+for i in range(1, n+1):
+    sum += i
+    print(sum)
 
 # for 문을 역순으로 반복하기
 # for i in range(10, -1, -1): # 10 ~ 0 까지 출력
@@ -131,10 +131,10 @@
 # 문자와 ASCII 코드
 # chr : 유니코드 값을 입력 받아 그 코드에 해당하는 문자를 출력
 # ord : 문자를 유니코드으로 변환
-for i in range(ord("A"), ord("Z") + 1):
-    print(chr(i),end=" ")
-print()
-
-for i in range(65, 91):
-    print(chr(i), end=" ")
-print()
+# for i in range(ord("A"), ord("Z") + 1):
+#     print(chr(i),end=" ")
+# print()
+#
+# for i in range(65, 91):
+#     print(chr(i), end=" ")
+# print()
